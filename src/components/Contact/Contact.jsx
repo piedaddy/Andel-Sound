@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Contact.scss";
 import "../Footer/Footer.css";
 import Iframe from "react-iframe";

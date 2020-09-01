@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
-import Nav from "./Nav";
 import Home from "./Home/Home";
 import Services from "./Services/Services";
 import Photos from "./Photos/Photos";
@@ -8,7 +7,6 @@ import Gear from "./Gear/Gear";
 import Footer from "./Footer/Footer";
 import Contact from "./Contact/Contact";
 import References from './References/References';
-import Iframe from "react-iframe";
 
 function App() {
   const [inEng, setInEng] = useState(false);

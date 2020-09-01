@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Gear.scss";
 // import Microphones from "./Microphones";
 // import Daw from "./Daw";
