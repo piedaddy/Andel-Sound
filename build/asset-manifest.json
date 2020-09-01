@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.301d9349.chunk.css",
+    "main.js": "/static/js/main.17a67325.chunk.js",
+    "main.js.map": "/static/js/main.17a67325.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b4e4e81d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b4e4e81d.js.map",
+    "static/js/2.d08fb166.chunk.js": "/static/js/2.d08fb166.chunk.js",
+    "static/js/2.d08fb166.chunk.js.map": "/static/js/2.d08fb166.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.51ae3987790cf9c4402c798755c094c2.js": "/precache-manifest.51ae3987790cf9c4402c798755c094c2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.301d9349.chunk.css.map": "/static/css/main.301d9349.chunk.css.map",
+    "static/js/2.d08fb166.chunk.js.LICENSE.txt": "/static/js/2.d08fb166.chunk.js.LICENSE.txt",
+    "static/media/computer_1.JPG": "/static/media/computer_1.1e8d8e2a.JPG",
+    "static/media/computer_2.JPG": "/static/media/computer_2.fefbdaf3.JPG",
+    "static/media/control_room_1.JPG": "/static/media/control_room_1.c71ec82f.JPG",
+    "static/media/control_room_3.JPG": "/static/media/control_room_3.22315e4f.JPG",
+    "static/media/preamps_1.JPG": "/static/media/preamps_1.8d4f7236.JPG",
+    "static/media/recording_room_1.JPG": "/static/media/recording_room_1.e56c4b47.JPG",
+    "static/media/recording_room_2.JPG": "/static/media/recording_room_2.40c8d959.JPG",
+    "static/media/soundbooth_1.JPG": "/static/media/soundbooth_1.29adba5d.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4e4e81d.js",
+    "static/js/2.d08fb166.chunk.js",
+    "static/css/main.301d9349.chunk.css",
+    "static/js/main.17a67325.chunk.js"
+  ]
+}
