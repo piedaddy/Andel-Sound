@@ -1,0 +1,35 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  height:100vh;
+  padding: 0 5em;
+  background-color: rgb(39, 60, 85);
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner {
+  width: auto;
+}
+
+.photos h2 {
+  color: rgb(194, 96, 4);
+}
+
+.photos img {
+  height: 80vh;
+  /* @media(min-width: 320px) {
+    width:40vw;
+    height:auto;
+  }
+
+  @media(min-width: 800px) {
+    width:80vw;
+    height:auto;
+  } */
+
+}
