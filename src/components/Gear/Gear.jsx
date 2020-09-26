@@ -10,7 +10,7 @@ import "./Gear.scss";
 export default function Gear({ inEng }) {
   return (
     <>
-      <section id="gear" class="equiptment">
+      <section id="gear" className="equiptment">
         <div className="title">
           <h2>{inEng ? "Equiptment" : "Zařízení"}</h2>
         </div>

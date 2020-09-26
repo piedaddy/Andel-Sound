@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import Home from "./Home/Home";
-import Services from "./Services/Services";
+import About from "./About/About";
 import Photos from "./Photos/Photos";
 import Gear from "./Gear/Gear";
 import Footer from "./Footer/Footer";
@@ -39,25 +39,25 @@ function App() {
           </div>
           <div className="nav-links">
             {/* <a href="#home"> {inEng ? "home" : "domů"}</a> */}
-            <a href="#services"> {inEng ? "services" : "služeb"}</a>
+            <a href="#about"> {inEng ? "about" : "o nas"}</a>
+            <a href="#references"> {inEng ? "references" : "reference"} </a>
             <a href="#gear"> {inEng ? "equiptment" : "vybavení"} </a>
             <a href="#photos"> {inEng ? "photos" : "fotky"} </a>
-            <a href="#references"> {inEng ? "references" : "reference"} </a>
             <a href="#contact"> {inEng ? "contact" : "kontact"} </a>
           </div>
-          <div className="nav-icons">
+          {/* <div className="nav-icons">
             <i className="fab fa-facebook-square"></i>
             <i className="fab fa-instagram"></i>
             <i className="fab fa-youtube"></i>
-          </div>
+          </div> */}
         </nav>
       </header>
       <div>
         <Home inEng={inEng} />
-        <Services inEng={inEng} />
+        <About inEng={inEng} />
+        <References inEng={inEng} />
         <Gear inEng={inEng} />
         <Photos inEng={inEng} />
-        <References inEng={inEng} />
         <Contact inEng={inEng} />
         <Footer inEng={inEng} />
 

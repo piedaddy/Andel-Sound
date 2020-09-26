@@ -1,22 +1,43 @@
-
+@import "../../scss/variables.scss";
 
 .contacts {
   height: 100vh;
-  margin: 4em;
+  width: 100vw;
   display:flex;
   flex-direction: column;
+  background-color: $dark-blue;
+  color: $blue-light;
   /* align-items: center; */
+  @media(min-width: 320px) {
+    padding: 2em;
+  }
+
+  @media(min-width: 500px) {
+    padding: 3em;
+  }
+  @media(min-width: 768px) {
+    padding: 4em;
+  }
 }
 
 .contacts h2 {
-  margin:2em 0 1em;
+  margin: 2em 0 1em;
   text-transform: uppercase;
+  color: $orangeish;
 }
 
 .contact_box {
   display:flex;
-  justify-content: space-around;
   margin-bottom:1.5em;
+
+  @media(min-width: 320px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media(min-width: 500px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .contact_box a {
@@ -27,6 +48,10 @@
   display:flex;
   flex-direction: column;
   align-items: center;
+
+  a {
+    color: $beige;
+  }
 }
 
 
@@ -41,14 +66,23 @@
 }
 
 .icons {
-  color:green;
-  font-size: 3em;
-  display:flex;
+  color: $beige;
+  display: flex;
   justify-content:space-between;
+  @media(min-width: 320px) {
+    font-size: 1em;
+  }
+
+  @media(min-width: 500px) {
+    font-size: 3em;
+  }
   /* flex-direction: column;
   align-items: center; */
 }
 
 .icons div {
   margin: 0 1em;
+}
+
+.prices {
 }

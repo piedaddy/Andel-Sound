@@ -1,3 +1,6 @@
+@import "../../scss/variables.scss";
+
+
 .services_container {
   height: 90vh;
   /* margin-left: 4em;
@@ -5,8 +8,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 1em 4em;
-  padding-bottom: 10em;
+  /* margin: 5.3em 4em; */
+  padding: 1em 4em;
+  // padding-bottom: 10em;
+  // background-color: $sky-blue;
+  background-color: $beige;
+
+  color: $dark-blue;
 }
 
 .services {
