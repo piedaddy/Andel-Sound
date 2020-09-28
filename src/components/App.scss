@@ -74,7 +74,7 @@ nav a {
     right: 2.3em;
     // width: 2em;
     // height: auto;
-    background-color: pink;
+    background-color: blue;
 
     svg {
       fill: $dark-blue;
@@ -85,7 +85,9 @@ nav a {
 
   &__links {
     position: relative; 
-    top: 5.55em;
+    // top: 5.55em;
+    top: 7em;
+
     display: flex;
     flex-direction: column;
     background-color: $beige;
