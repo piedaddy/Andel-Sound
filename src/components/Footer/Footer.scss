@@ -3,18 +3,18 @@
 .footer {
   width: 100vw;
   background-color: $dark-blue;
-  @media (min-width: 320px) {
-    padding-top: 6em;
-  }
-  @media (min-width: 353px) {
-    padding-top: 3em;
-  }
-  @media (min-width: 600px) {
-    padding-top: 0em;
-  }
+  // @media (min-width: 320px) {
+  //   padding-top: 6em;
+  // }
+  // @media (min-width: 353px) {
+  //   padding-top: 3em;
+  // }
+  // @media (min-width: 600px) {
+  //   padding-top: 0em;
+  // }
 p {
   margin-bottom: 0;
-   padding: 0.2em;
+   padding: 1.4em 0.2em 0.2em;
   font-size: 0.6em;
   color: $sky-blue;
   

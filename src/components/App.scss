@@ -40,7 +40,7 @@ nav a {
   letter-spacing: 0;
 
   @media (min-width: 320px) {
-    width: 3em;
+    width: 5em;
   }
 
   @media (min-width: 384px) {
@@ -57,8 +57,7 @@ nav a {
   @media (min-width: 320px) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-top: 1em;
+    padding-top: 1.5em;
   }
 
   @media (min-width: 384px) {
