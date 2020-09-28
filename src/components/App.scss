@@ -69,7 +69,7 @@ nav a {
   }
 
   .menu-svg {
-    position: fixed;
+    position: absolute;
     top: 2em;
     right: 2.3em;
     // width: 2em;
@@ -83,19 +83,20 @@ nav a {
   }
 
   &__links {
+    position: relative; 
+    top: 5.55em;
     display: flex;
     flex-direction: column;
     background-color: $beige;
     color: $dark-blue;
 
-    @media(min-width: 320px) {
-      margin-top: 6em;
+    // @media(min-width: 320px) {
+    //   margin-top: 6em;
 
-    }
-    @media(min-width: 600px) {
-      margin-top: 4.7em;
-
-    }
+    // }
+    // @media(min-width: 600px) {
+    //   margin-top: 4.7em;
+    // }
 
     a {
       padding: 0.5em 0;
