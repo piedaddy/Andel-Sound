@@ -64,17 +64,20 @@ nav a {
 
 .nav-burger {
   // padding-bottom: 2em;
+  position: absolute;
+  top: 0;
+  right: 0;
   @media (min-width: 768px) {
     display: none;
   }
 
   .menu-svg {
-    position: absolute;
+    position: fixed;
     top: 2em;
     right: 2.3em;
     // width: 2em;
     // height: auto;
-    background-color: blue;
+    background-color: purple;
 
     svg {
       fill: $dark-blue;
@@ -85,8 +88,9 @@ nav a {
 
   &__links {
     position: relative; 
-    // top: 5.55em;
-    top: 7em;
+     top: 5.55em;
+    // top: 6em;
+    right: 0;
 
     display: flex;
     flex-direction: column;
