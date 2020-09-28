@@ -6,11 +6,11 @@ import Iframe from "react-iframe";
 export default function Contact({ inEng }) {
   return (
     <section id="contact" className="contacts">
-      <div>
-        <h2>{inEng ? "Contact Us" : "Kontaktujte Nás"}</h2>
-        
+      <h2>{inEng ? "Contact Us" : "Kontaktujte Nás"}</h2>
+
+      <div className="contacts__container">
         <div className="contact_box">
-          <div>
+          <div className="contact">
             <span>
               <strong>email:</strong> hash@hash.com
             </span>
@@ -18,52 +18,92 @@ export default function Contact({ inEng }) {
             <span>
               <strong>tel:</strong> 420-777-777-777
             </span>
+            {/* <div className="contact-email">
+              <span>{inEng ? "send an email now" : "nyní pošlete e-mail"}</span>
+              <a
+                href="mailto:gpwildfeuer@email.wm.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="far fa-envelope"
+              >
+                {" "}
+              </a>
+            </div> */}
           </div>
-          <div className="contact-email">
-            <span>{inEng ? "send an email now" : "nyní pošlete e-mail"}</span>
-            <a
-              href="mailto:gpwildfeuer@email.wm.edu"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="far fa-envelope"
-            >
+        </div>
+        <div className="follow">
+          {/* <h4>Follow us here</h4> */}
+          <div className="icons">
+            <div>
+              <a
+                href="mailto:gpwildfeuer@email.wm.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="far fa-envelope"
+              >
+                {" "}
+              </a>
+            </div>
+            <div>
+              <a
+                className="fab fa-facebook-square"
+                href="https://www.instagram.com/andelsound/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+              </a>
+            </div>
+            <div>
+              <a
+                className="fab fa-instagram"
+                href="https://www.instagram.com/andelsound/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+              </a>
+            </div>
+            <div>
               {" "}
-            </a>
-          </div>
-        </div>
-        
-      </div>
-      <div className="follow">
-        <h4>Follow us here</h4>
-        <div className="icons">
-          <div>
-            <i className="fab fa-facebook-square"></i>
-          </div>
-          <div>
-            <i className="fab fa-instagram"></i>
-          </div>
-          <div>
-            {" "}
-            <i className="fab fa-youtube"></i>
+              <a
+                className="fab fa-youtube"
+                href="https://www.instagram.com/andelsound/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
       <div className="prices">
-          <h4>{inEng ? "Pricelist" : "Ceník"}</h4>
-          <div className="prices__music">
-            <h5>
-              {" "}
-              {inEng
-                ? "Recording, mixing, producing: 400KC / hour"
-                : "Nahrávání, mixování, produkce: 400KC / hodin"}
-            </h5>
-            {/* <span>: 400 KC / {inEng ? "hour" : "hodin"}</span> */}
-          </div>
-          <div className="prices__commercial">
-            <h5>{inEng ? "Commercial projects" : "Komerční projekty"}</h5>
-            <span>800 KC / {inEng ? "hour" : "hodin"}</span>
-          </div>
+        <h4>{inEng ? "Pricelist" : "Ceník"}</h4>
+        <div className="prices__music">
+          <p>
+            {inEng
+              ? "Recording, mixing, producing:"
+              : "Nahrávání, mixování, produkce:"}
+            <span> 400 Kč / {inEng ? "hour" : "hodin"}</span>
+          </p>
         </div>
+        <div className="prices__commercial">
+          <p>
+            {inEng ? "Commercial projects:" : "Komerční projekty:"}
+            <span> 800 Kč / {inEng ? "hour" : "hodin"}</span>
+          </p>
+        </div>
+
+        <div className="prices__custom">
+          <p>
+            {inEng
+              ? "When working with the entire board, a tailor-made price can be arranged"
+              : "Při práci na celé desce lze dohodnout cenu na míru."}
+          </p>
+        </div>
+      </div>
       <div className="map">
         <div className="map-responsive">
           <Iframe

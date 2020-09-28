@@ -1,19 +1,18 @@
 @import "../../scss/variables.scss";
 
-
 .services_container {
-  height: 90vh;
-  /* margin-left: 4em;
-  margin-right:4em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100vh;
   /* margin: 5.3em 4em; */
-  padding: 1em 4em;
-  // padding-bottom: 10em;
-  // background-color: $sky-blue;
+  @media (min-width: 320px) {
+    padding: 1em 3em;
+  }
+  @media (min-width: 600px) {
+    padding: 1em 4em;
+  }
   background-color: $beige;
-
   color: $dark-blue;
 }
 
@@ -21,45 +20,16 @@
   display: flex;
   flex-direction: column;
 
-}
-
-/*
- @media(min-width:320px) {
-   height:45vh;
- }
- @media (min-width:500px) {
-   height:50vh;
- }
- @media (min-width:600px) {
-   height:55vh;
- }
- @media (min-width:836px) {
-   height:59vh;
- }
-
- @media (min-width:900px) {
-   height:100vh;
-   
- }
- // @media (min-width:1055px) {
- //   height:80vh;
- // }
-
- h1 {
-   @media (min-width:600px) {
-     font-size:10em;
-     
-   }
-
- }
-
-} */
-
-.services h2 {
-  margin-top: 1em;
-}
-
-.services p {
-  padding: 0;
-  margin: 0;
+  h2 {
+    @media (min-width: 320px) {
+      padding-top: 2.3em;
+    }
+    @media (min-width: 339px) {
+      padding-top: 0;
+    }
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
 }

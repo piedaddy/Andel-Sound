@@ -21,9 +21,9 @@ function App() {
         {/* <img src="./img/logo.jpeg" alt="Andel Sound Logo"/> */}
         {/* <button onClick={handleLangChange}> {inEng ? "EN" : "CZ"}</button> */}
         <nav className="nav">
-          <div>
+          <div className="lang">
             <form action="#">
-              <div className="lang_range">
+              <div className="lang__range">
                 EN
                 <input
                   className="range"
@@ -38,12 +38,11 @@ function App() {
             </form>
           </div>
           <div className="nav-links">
-            {/* <a href="#home"> {inEng ? "home" : "domů"}</a> */}
-            <a href="#about"> {inEng ? "about" : "o nas"}</a>
-            <a href="#references"> {inEng ? "references" : "reference"} </a>
-            <a href="#gear"> {inEng ? "equiptment" : "vybavení"} </a>
-            <a href="#photos"> {inEng ? "photos" : "fotky"} </a>
-            <a href="#contact"> {inEng ? "contact" : "kontact"} </a>
+            <a href="#about">{inEng ? "about" : "o nás"}</a>
+            <a href="#references">{inEng ? "references" : "reference"}</a>
+            <a href="#gear">{inEng ? "equiptment" : "vybavení"}</a>
+            <a href="#photos">{inEng ? "photos" : "fotky"}</a>
+            <a href="#contact">{inEng ? "contact" : "kontact"}</a>
           </div>
           {/* <div className="nav-icons">
             <i className="fab fa-facebook-square"></i>

@@ -1,27 +1,33 @@
 @import "../../scss/variables.scss";
 
 .equiptment {
-  // background-color: rgba(39, 60, 85, 0.685);
-  // background-image: linear-gradient(180deg, rgba(39, 60, 85, 0.685), rgb(39, 60, 85));
-  // background: rgb(224,251,252);
-  // background: linear-gradient(180deg, rgba(224,251,252,1) 0%, rgba(41,50,65,1) 89%);
   background-color: $beige;
-
-
-  @media(min-width: 320px) {
+  @media (min-width: 320px) {
     padding: 1em 2em;
   }
 
-  @media(min-width: 500px) {
+  @media (min-width: 500px) {
     padding: 1em 3em;
   }
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding: 1em 4em;
   }
 
   h2 {
-    color: $orangeish;
+    border-bottom: 2px solid $dark-blue;
+    color: $dark-blue;
+    text-transform: uppercase;
+    @media (min-width: 320px) {
+      padding-top: 2.5em;
+    }
+    @media (min-width: 600px) {
+      padding-top: 2.2em;
+    }
+  }
+
+  hr {
+    color: $dark-blue;
   }
 }
 
@@ -34,31 +40,25 @@
   &__1 {
     display: flex;
 
-    @media(min-width: 320px) {
+    @media (min-width: 320px) {
       flex-wrap: wrap;
       justify-content: center;
     }
 
-    @media(min-width: 768px) {
+    @media (min-width: 768px) {
       flex-wrap: nowrap;
       justify-content: space-between;
       margin-bottom: 2em;
-
-
     }
-
-    // .gear {
-    //   width: 40vw;
-    // }
   }
 
   &__2 {
     display: flex;
     justify-content: space-around;
-    @media(min-width: 320px) {
+    @media (min-width: 320px) {
       flex-wrap: wrap;
     }
-    @media(min-width: 500px) {
+    @media (min-width: 500px) {
       flex-wrap: nowrap;
     }
   }
@@ -66,32 +66,23 @@
   li {
     list-style: none;
     line-height: 1.7em;
-    // color: rgb(230, 227, 227);
     color: $dark-blue;
-
   }
 
   li:hover {
-    // transform: perspective(1px) translateZ(0px);
-    // transition-duration: 0.3s;
-    // transition-property: transform;
     transition: all 0.5s ease-in-out;
     transform: scale(1.03);
-
-
   }
 }
 
-
 .gear {
   text-align: center;
-  @media(min-width: 320px) {
-    // width: auto;
+  @media (min-width: 320px) {
     width: 70vw;
     padding-bottom: 1em;
   }
 
-  @media(min-width: 500px) {
+  @media (min-width: 500px) {
     width: 40vw;
   }
 }
@@ -100,7 +91,6 @@
   margin-bottom: 2em;
 }
 
-
 h4 {
   text-transform: uppercase;
   font-weight: bold;
@@ -108,5 +98,4 @@ h4 {
   // @media(min-width: 600px) {
   //   height: 3.2em;
   // } ERIC DO U LIKE THIS
-
 }

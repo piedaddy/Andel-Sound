@@ -1,5 +1,8 @@
+@import "../../scss/variables.scss";
+
 .references {
   min-height: 100vh;
+  background-color: $dark-blue;
   @media (min-width: 320px) {
     padding: 1em 0em;
   }
@@ -13,18 +16,39 @@
   }
 
   h2 {
-    padding: 2em 0 1em;
+    @media (min-width: 320px) {
+      padding: 2.5em 1em 1em;
+      text-transform: uppercase;
+      color: $seafoam;
+    }
+    @media (min-width: 600px) {
+      padding: 2em 0em 1em;
+    }
   }
 
   h5 {
-    padding: 0 1em;
+    padding-right: 1em;
     font-size: 1em;
+    text-transform: uppercase;
+    color: $seafoam;
+  }
+
+  hr {
+    background-color: $seafoam;
   }
 }
 
 .references_menu {
   display: flex;
   justify-content: right;
+  border-bottom: 2px solid $seafoam;
+
+  @media (min-width: 320px) {
+    padding-left: 2em;
+  }
+  @media (min-width: 600px) {
+    padding-left: 0em;
+  }
 }
 
 .references_container {
@@ -40,6 +64,7 @@
   // width: 26vw;
   padding: 1em;
   text-align: center;
+  color: $beige;
 
   @media (min-width: 320px) {
     width: 90vw;
@@ -61,10 +86,10 @@
   }
 }
 
-.reference:hover {
-  background-color: rgba(223, 219, 219, 0.568);
-  box-shadow: 1px 1px 5px 0px rgba(165, 163, 163, 0.856);
-}
+// .reference:hover {
+//   background-color: rgba(223, 219, 219, 0.568);
+//   box-shadow: 1px 1px 5px 0px rgba(165, 163, 163, 0.856);
+// }
 .reference_description {
   font-weight: 300;
   font-style: italic;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./References.scss";
 
-export default function Mixing({ inEng }) {
+export default function Commercial({ inEng }) {
   return (
     <>
       <div className="reference">

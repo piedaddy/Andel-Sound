@@ -7,7 +7,6 @@
   background-color: $dark-blue;
 
   @media (min-width: 320px) {
-    padding: 0em 0.5em;
     height: 60vh;
   }
   @media (min-width: 425px) {
@@ -15,7 +14,6 @@
   }
 
   @media (min-width: 500px) {
-    padding: 0em 1em;
     height: 80vh;
   }
 
@@ -26,15 +24,21 @@
   @media (min-width: 700px) {
     height: 100vh;
   }
-
-  @media (min-width: 768px) {
-    padding: 0 2em;
-  }
 }
 
 .carousel {
   display: flex;
   justify-content: center;
+  @media (min-width: 320px) {
+    padding: 0em 0.5em;
+  }
+
+  @media (min-width: 500px) {
+    padding: 0em 1em;
+  }
+  @media (min-width: 768px) {
+    padding: 0 2em;
+  }
 }
 
 .carousel-inner {
@@ -42,13 +46,16 @@
 }
 
 .photos h2 {
-  /* color: rgb(194, 96, 4); */
-  // color: #e6980b;
-  color: $orangeish;
+  color: $seafoam;
 
   @media (min-width: 320px) {
-    padding-bottom: 1em;
     margin-left: 1em;
+    padding: 3em 0 1em;
+  }
+
+  @media (min-width: 600px) {
+    margin-left: 2em;
+    padding-top: 2.5em;
   }
 
   @media (min-width: 830px) {
@@ -57,22 +64,13 @@
 }
 
 .photos img {
-  height: 80vh;
-
+  // height: 80vh;
   @media (min-width: 320px) {
-    // width:90vw;
-    // height:50vh;
-    // object-fit: contain;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
   }
   @media (min-width: 830px) {
     height: 80vh;
     max-width: auto;
   }
-  /* 
-  @media(min-width: 800px) {
-    width:80vw;
-    height:auto;
-  } */
 }

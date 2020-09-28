@@ -12,7 +12,7 @@ export default function Gear({ inEng }) {
     <>
       <section id="gear" className="equiptment">
         <div className="title">
-          <h2>{inEng ? "Equiptment" : "Zařízení"}</h2>
+          <h2>{inEng ? "Equiptment" : "Vybavení"}</h2>
         </div>
         <div className="gear_container">
           <div className="gear_container__1">

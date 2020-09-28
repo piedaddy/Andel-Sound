@@ -1,54 +1,29 @@
 @import "../../scss/variables.scss";
 
-
 .footer {
-  width:100vw;
+  width: 100vw;
   background-color: $dark-blue;
-}
-
-.footer p {
-  margin-bottom:0;
-  color: $sky-blue;
-
-}
-
-@media(min-width:320px) {
-  .map {
-    padding:1em 2em;
-    margin: 1em 2em;
-    height: 50vh;
-    position:relative;
-
-    /* display:flex; */
-  
+  @media (min-width: 320px) {
+    padding-top: 6em;
   }
-
-}
-/* .map {
-  padding:4em 8em;
-
-} */
-
-.map-responsive{
-  overflow:hidden;
-  /* padding-bottom:56.25%; */
-  height:0;
-
-
-}
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-
-  /* justify-content: center; */
-
+  @media (min-width: 353px) {
+    padding-top: 3em;
+  }
+  @media (min-width: 600px) {
+    padding-top: 0em;
+  }
+p {
+  margin-bottom: 0;
+   padding: 0.2em;
+  font-size: 0.6em;
+  color: $sky-blue;
+  
 }
 
-
-.resp iframe {
-  align-self: center;
+a {
+  text-decoration: none;
+  color: $sky-blue;
+  padding-top: 1em;
+}
 
 }
