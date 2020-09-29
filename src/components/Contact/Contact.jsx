@@ -12,7 +12,7 @@ export default function Contact({ inEng }) {
         <div className="contact_box">
           <div className="contact">
             <span>
-              <strong>email:</strong> hash@hash.com
+              <strong>email:</strong> hash (at) hash.com
             </span>
             <br />
             <span>

@@ -17,6 +17,12 @@ function App() {
     setInEng(!inEng);
   };
 
+  const changeLangToEng = () => {
+    setInEng(true);
+  };
+  const changeLangToCz = () => {
+    setInEng(false);
+  };
   function handleShowMenu() {
     setShowMenu(!showMenu);
   }
@@ -28,21 +34,21 @@ function App() {
         {/* <button onClick={handleLangChange}> {inEng ? "EN" : "CZ"}</button> */}
         <nav className="nav">
           <div className="nav-logo">
-            <img src={require("../photos/AS_2.PNG")} alt="Andel Sound Logo"/>
+            <a href="#"><img src={require("../photos/AS_2.PNG")} alt="Andel Sound Logo"/></a>
           </div>
           <div className="lang">
             <form action="#">
               <div className="lang__range">
-                EN
-                <input
+                <span className={`${inEng ? "active" : ""}`} onClick={changeLangToEng}>EN</span> | 
+                {/* <input
                   className="range"
                   onChange={handleLangChange}
                   type="range"
                   id="test5"
                   min="0"
                   max="1"
-                />
-                CZ
+                /> */}
+                <span className={`${!inEng ? "active" : ""}`} onClick={changeLangToCz}>CZ</span>
               </div>
             </form>
           </div>

@@ -28,7 +28,7 @@ html {
     height: 14vh;
   }
   @media (min-width: 600px) {
-    height: 12vh;
+    height: 10vh;
   }
 
   .nav-logo {
@@ -127,6 +127,7 @@ nav a {
   @media (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 5em;
     padding-top: 1.5em;
   }
 }
@@ -145,6 +146,14 @@ nav a {
     font-size: 1em;
     color: $dark-blue;
     padding: 0 1em;
+
+    span {
+      padding: 0.3em;
+    }
+    span:hover, .active {
+      font-weight: bold;
+    }
+ 
   }
 
   input[type="range"] {

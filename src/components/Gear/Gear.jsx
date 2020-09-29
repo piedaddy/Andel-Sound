@@ -93,7 +93,7 @@ export default function Gear({ inEng }) {
             </div>
           </div>
         ) : (
-          <p className="see-gear">
+          <p className="see-gear" onClick={handleShowGear}>
             {inEng ? "Click to see more" : "Kliknutím zobrazíte více"}
           </p>
         )}
