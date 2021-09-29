@@ -97,6 +97,7 @@
 }
 
 .reference_image {
+  // object-fit: fill;
   width: 10em;
   height: 10em;
   border-radius: 50%;
@@ -111,8 +112,8 @@
   //   height: 10em;
   // }
   @media (min-width: 768px) {
-    width: 13em;
-    height: 13em;
+    width: 15em;
+    height: 15em;
   }
 }
 

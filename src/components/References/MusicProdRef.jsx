@@ -8,48 +8,62 @@ export default function MusicProdRef({ inEng }) {
         <img
           className="reference_image"
           src={require("../../photos/computer_1.JPG")}
-          alt="gaby"
+          alt="Rising Spirits"
         ></img>
         <p className="reference_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Mixing session for single <i>Tvoj Usmev</i>
         </p>
-        <p className="reference_name">Gaby Wildfeuer</p>
+        <p className="reference_name">Rising Spirits</p>
       </div>
 
       <div className="reference">
         <img
           className="reference_image"
           src={require("../../photos/computer_1.JPG")}
-          alt="gaby"
+          alt="Leaping Lena"
         ></img>
         <p className="reference_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Music production, mix, and master for single <i>Where Are We Going</i>
         </p>
-        <p className="reference_name">Gaby Wildfeuer</p>
+        <p className="reference_name">Leaping Lena</p>
       </div>
 
       <div className="reference">
         <img
           className="reference_image"
           src={require("../../photos/computer_1.JPG")}
-          alt="gaby"
+          alt="PJ Dokosh"
         ></img>
         <p className="reference_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Recording and mix for song <i>Až Budeš</i>
         </p>
-        <p className="reference_name">Gaby Wildfeuer</p>
+        <p className="reference_name">PJ Dokosh</p>
       </div>
 
       <div className="reference">
         <img
           className="reference_image"
           src={require("../../photos/computer_1.JPG")}
-          alt="gaby"
+          alt="Sirup"
         ></img>
         <p className="reference_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Music production, mix, and master for single{" "}
+          <i>Tvuj Fotr To Tak Chtel</i>
         </p>
-        <p className="reference_name">Gaby Wildfeuer</p>
+        <p className="reference_name">Sirup</p>
+      </div>
+
+      <div className="reference">
+        <img
+          className="reference_image"
+          src={require("../../photos/computer_1.JPG")}
+          alt="PJ Dokosh"
+        ></img>
+        <p className="reference_description">
+          Music production, mix, and master for single
+          <i>Plameny</i>
+        </p>
+        <p className="reference_name">PJ Dokosh</p>
       </div>
     </>
   );

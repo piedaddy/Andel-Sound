@@ -2,31 +2,17 @@ import React from "react";
 import "./About.scss";
 
 export default function About({ inEng }) {
+  const czechText =
+    "Produkční a nahrávací studio v Praze na Andělu se zaměřuje na individuální projekty v oblasti hudební produkce a mluveného slova. Kontaktujte nás na studio@andelsound.com s Vaším projektem, rádi se ozveme zpět s návrhem realizace a ceny.";
+  const englishText =
+    "We are a recording studio in the heart of Andel, Prague. Andel Sound is mainly focused on the full spectrum of music creation, from production to mixing and mastering. We also work with commercial projects, like voice overs. Contact us via email (( studio@andelsound.com )) with your individual project and we will get back to you with our proposal of the solution and the budget.";
+
   return (
     <section className="services_container" id="about">
       <div className="services">
-        <h2>{inEng ? "blah" : "czech"}</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          fugiat harum animi at omnis. Excepturi nesciunt earum fuga sit ut
-          optio quisquam dicta corrupti at distinctio totam laboriosam soluta
-          vel delectus ad odit aut quibusdam, voluptatum error facere!
-          Reprehenderit blanditiis rem ea nesciunt necessitatibus nulla iste sed
-          quibusdam voluptatem explicabo dolorem est sunt ut eligendi corrupti,
-          doloremque voluptas fugit repellendus.
-        </p>
-
-        {/* <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          fugiat harum animi at omnis. Excepturi nesciunt earum fuga sit ut
-          optio quisquam dicta corrupti at distinctio totam laboriosam soluta
-          vel delectus ad odit aut quibusdam, voluptatum error facere!
-          Reprehenderit blanditiis rem ea nesciunt necessitatibus nulla iste sed
-          quibusdam voluptatem explicabo dolorem est sunt ut eligendi corrupti,
-          doloremque voluptas fugit repellendus.
-        </p> */}
+        <h2>{inEng ? "About" : "O Nás"}</h2>
+        <p>{inEng ? englishText : czechText}</p>
       </div>
-    
     </section>
   );
 }

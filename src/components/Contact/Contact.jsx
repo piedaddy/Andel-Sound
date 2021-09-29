@@ -12,11 +12,11 @@ export default function Contact({ inEng }) {
         <div className="contact_box">
           <div className="contact">
             <span>
-              <strong>email:</strong> hash (at) hash.com
+              <strong>email:</strong> studio@andelsound.com
             </span>
             <br />
             <span>
-              <strong>tel:</strong> 420-777-777-777
+              <strong>tel:</strong> +420-735-190-478
             </span>
             {/* <div className="contact-email">
               <span>{inEng ? "send an email now" : "nyní pošlete e-mail"}</span>
@@ -36,7 +36,7 @@ export default function Contact({ inEng }) {
           <div className="icons">
             <div>
               <a
-                href="mailto:gpwildfeuer@email.wm.edu"
+                href="mailto:studio@andelsound.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="far fa-envelope"
@@ -47,7 +47,7 @@ export default function Contact({ inEng }) {
             <div>
               <a
                 className="fab fa-facebook-square"
-                href="https://www.instagram.com/andelsound/"
+                href="https://www.facebook.com/andelsound"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -64,7 +64,7 @@ export default function Contact({ inEng }) {
                 {" "}
               </a>
             </div>
-            <div>
+            {/* <div>
               {" "}
               <a
                 className="fab fa-youtube"
@@ -74,7 +74,7 @@ export default function Contact({ inEng }) {
               >
                 {" "}
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -99,8 +99,8 @@ export default function Contact({ inEng }) {
         <div className="prices__custom">
           <p>
             {inEng
-              ? "When working with the entire board, a tailor-made price can be arranged"
-              : "Při práci na celé desce lze dohodnout cenu na míru."}
+              ? "Prices may vary due to type and size of individual project. Describe your project via email studio@andelsound.com and we will get back to you with specific calculations."
+              : "Ceny jsou orientační podle typu a rozsáhlosti projektu. Popište nám svůj projekt na studio@andelsound.com a my Vám zašlem individualní kalkulaci ceny."}
           </p>
         </div>
       </div>

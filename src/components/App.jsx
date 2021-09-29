@@ -34,12 +34,20 @@ function App() {
         {/* <button onClick={handleLangChange}> {inEng ? "EN" : "CZ"}</button> */}
         <nav className="nav">
           <div className="nav-logo">
-            <a href="#"><img src={require("../photos/AS_2.PNG")} alt="Andel Sound Logo"/></a>
+            <a href="#">
+              <img src={require("../photos/AS_2.PNG")} alt="Andel Sound Logo" />
+            </a>
           </div>
           <div className="lang">
             <form action="#">
               <div className="lang__range">
-                <span className={`${inEng ? "active" : ""}`} onClick={changeLangToEng}>EN</span> | 
+                <span
+                  className={`${inEng ? "active" : ""}`}
+                  onClick={changeLangToEng}
+                >
+                  EN
+                </span>{" "}
+                |
                 {/* <input
                   className="range"
                   onChange={handleLangChange}
@@ -48,26 +56,41 @@ function App() {
                   min="0"
                   max="1"
                 /> */}
-                <span className={`${!inEng ? "active" : ""}`} onClick={changeLangToCz}>CZ</span>
+                <span
+                  className={`${!inEng ? "active" : ""}`}
+                  onClick={changeLangToCz}
+                >
+                  CZ
+                </span>
               </div>
             </form>
           </div>
           <div className="nav-burger">
-              {/* <img
+            {/* <img
                 src={require("../photos/menu.png")}
                 alt="menu icon"
                 onClick={handleShowMenu}
               ></img> */}
-              <div className="menu-svg"  onClick={handleShowMenu}>
+            <div className="menu-svg" onClick={handleShowMenu}>
               <MenuSVG />
-              </div>
+            </div>
             {showMenu ? (
               <div className="nav-burger__links">
-                <a href="#about" onClick={handleShowMenu} >{inEng ? "about" : "o nás"}</a>
-                <a href="#references" onClick={handleShowMenu}>{inEng ? "references" : "reference"}</a>
-                <a href="#photos" onClick={handleShowMenu}>{inEng ? "photos" : "fotky"}</a>
-                <a href="#gear" onClick={handleShowMenu}>{inEng ? "equiptment" : "vybavení"}</a>
-                <a href="#contact" onClick={handleShowMenu}>{inEng ? "contact" : "kontact"}</a>
+                <a href="#about" onClick={handleShowMenu}>
+                  {inEng ? "about" : "o nás"}
+                </a>
+                <a href="#references" onClick={handleShowMenu}>
+                  {inEng ? "references" : "reference"}
+                </a>
+                <a href="#photos" onClick={handleShowMenu}>
+                  {inEng ? "photos" : "fotky"}
+                </a>
+                <a href="#gear" onClick={handleShowMenu}>
+                  {inEng ? "equiptment" : "vybavení"}
+                </a>
+                <a href="#contact" onClick={handleShowMenu}>
+                  {inEng ? "contact" : "kontact"}
+                </a>
               </div>
             ) : (
               ""
