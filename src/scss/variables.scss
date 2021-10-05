@@ -10,6 +10,8 @@ $light-blue: #c0d6df;
 $grey: #eaeaea;
 
 $dark-blue: #293241;
+$dark-blue-transparent: rgb(41, 50, 65);
+
 $blue-blue: #3d5a80;
 $blue-light: #98c1d9;
 $sky-blue: #e0fbfc;
@@ -29,5 +31,26 @@ $seafoam-2: #aeda8d;
 // background: rgb(155,155,157);
 // background: linear-gradient(90deg, rgba(155,155,157,1) 0%, rgba(38,83,59,1) 100%, rgba(0,212,255,1) 100%);
 
-// background: rgb(38,70,83);
-// background: linear-gradient(90deg, rgba(38,70,83,1) 0%, rgba(232,218,178,1) 100%, rgba(0,212,255,1) 100%);
+// $background: rgb(38, 70, 83);
+
+// $background-gradient: linear-gradient(
+//   0deg,
+//   rgba(41, 50, 65, 1) 21%,
+//   rgba(232, 218, 178, 1) 100%,
+//   rgba(0, 212, 255, 1) 100%
+// );
+
+$background: rgb(41, 50, 65);
+$background-gradient: linear-gradient(
+  0deg,
+  rgba(41, 50, 65, 1) 25%,
+  rgba(232, 218, 178, 1) 98%
+);
+
+///Also nice one! just lighter blue
+// $background-gradient: linear-gradient(
+//   0deg,
+//   rgba(38, 70, 83, 1) 0%,
+//   rgba(232, 218, 178, 1) 100%,
+//   rgba(0, 212, 255, 1) 100%
+// );

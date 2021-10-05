@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
+// .App {
+//   background: $background;
+//   background: $background-gradient;
+// }
+
 .nav {
   position: fixed;
   top: 0;
@@ -22,7 +27,8 @@ html {
   width: 100vw;
   z-index: 1;
   margin-bottom: 1em;
-  background-color: $seafoam;
+  //background-color: $seafoam;
+  background-color: $dark-blue-transparent;
 
   @media (min-width: 320px) {
     height: 14vh;
@@ -45,7 +51,7 @@ nav a {
   margin: 0 1.5em;
   text-decoration: none;
   text-transform: uppercase;
-  color: $dark-blue;
+  color: $beige;
   letter-spacing: 0;
 
   @media (min-width: 320px) {
@@ -58,7 +64,7 @@ nav a {
 
   &:hover {
     text-decoration: none;
-    color: $beige;
+    color: $seafoam;
   }
 }
 
@@ -79,21 +85,21 @@ nav a {
     // height: auto;
 
     svg {
-      fill: $dark-blue;
+      fill: $beige;
       width: 3em;
       height: auto;
     }
   }
 
   &__links {
-    position: relative; 
-     top: 5.55em;
+    position: relative;
+    top: 5.55em;
     // top: 6em;
     right: 0;
 
     display: flex;
     flex-direction: column;
-    background-color: $beige;
+    background-color: $dark-blue;
     color: $dark-blue;
 
     // @media(min-width: 320px) {
@@ -144,16 +150,16 @@ nav a {
     display: flex;
     align-items: center;
     font-size: 1em;
-    color: $dark-blue;
+    color: $beige;
     padding: 0 1em;
 
     span {
       padding: 0.3em;
     }
-    span:hover, .active {
+    span:hover,
+    .active {
       font-weight: bold;
     }
- 
   }
 
   input[type="range"] {
@@ -178,4 +184,9 @@ nav a {
     width: 3em;
     color: pink;
   }
+}
+
+.subHome {
+  background: $background;
+  background: $background-gradient;
 }

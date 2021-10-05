@@ -2,7 +2,7 @@
 
 .references {
   min-height: 100vh;
-  background-color: $dark-blue;
+  // background-color: $dark-blue;
   @media (min-width: 320px) {
     padding: 1em 0em;
   }
@@ -17,12 +17,12 @@
 
   h2 {
     @media (min-width: 320px) {
-      padding: 2.5em 1em 1em;
+      padding: 2.5em 1em 0em 1em;
       text-transform: uppercase;
       color: $seafoam;
     }
     @media (min-width: 600px) {
-      padding: 2em 0em 1em;
+      padding: 2em 0em 0em 0em;
     }
   }
 
@@ -64,7 +64,7 @@
   // width: 26vw;
   padding: 1em;
   text-align: center;
-  color: $beige;
+  color: $seafoam;
 
   @media (min-width: 320px) {
     width: 90vw;

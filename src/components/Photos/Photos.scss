@@ -1,29 +1,29 @@
 @import "../../scss/variables.scss";
 
 .photos {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  background-color: $dark-blue;
+  // display: flex;
+  // flex-direction: column;
+  // width: 100vw;
+  // //  background-color: $dark-blue;
 
-  @media (min-width: 320px) {
-    height: 60vh;
-  }
-  @media (min-width: 425px) {
-    height: 70vh;
-  }
+  // @media (min-width: 320px) {
+  //   height: 60vh;
+  // }
+  // @media (min-width: 425px) {
+  //   height: 70vh;
+  // }
 
-  @media (min-width: 500px) {
-    height: 80vh;
-  }
+  // @media (min-width: 500px) {
+  //   height: 80vh;
+  // }
 
-  @media (min-width: 638px) {
-    height: 90vh;
-  }
+  // @media (min-width: 638px) {
+  //   height: 90vh;
+  // }
 
-  @media (min-width: 700px) {
-    height: 100vh;
-  }
+  // @media (min-width: 700px) {
+  //   height: 100vh;
+  // }
 }
 
 .carousel {
@@ -41,12 +41,9 @@
   }
 }
 
-.carousel-inner {
-  width: auto;
-}
-
 .photos h2 {
-  color: $seafoam;
+  color: $beige;
+  border-bottom: 2px solid $beige;
 
   @media (min-width: 320px) {
     margin-left: 1em;
@@ -64,13 +61,53 @@
 }
 
 .photos img {
-  // height: 80vh;
   @media (min-width: 320px) {
-    height: auto;
-    max-width: 100%;
+    width: 100%;
+    height: 90vh;
+    //or auto
+
+    object-fit: contain;
   }
+
   @media (min-width: 830px) {
-    height: 80vh;
-    max-width: auto;
+    margin-bottom: 5em;
+  }
+}
+
+.splide__arrow {
+  @media (min-width: 320px) {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+
+  @media (min-width: 830px) {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+  }
+
+  @media (min-width: 1024px) {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+}
+
+.splide__pagination {
+  // bottom: -5em !important;
+}
+
+.splide__pagination__page {
+  @media (min-width: 320px) {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+
+  @media (min-width: 830px) {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+
+  @media (min-width: 1024px) {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
   }
 }

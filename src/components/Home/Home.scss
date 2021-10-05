@@ -2,27 +2,24 @@
 
 .home {
   width: 100vw;
-  /* height:100vh; */
-  padding: 0 5em;
+  // /* height:100vh; */
+  height: 100vh;
+  //padding: 0 5em;
   /* background: rgb(87,82,175); */
-  background: linear-gradient(
-    264deg,
-    rgba(87, 82, 175, 1) 0%,
-    rgba(9, 121, 109, 1) 30%,
-    rgba(49, 161, 184, 1) 100%
-  );
+  // background: linear-gradient(
+  //   264deg,
+  //   rgba(87, 82, 175, 1) 0%,
+  //   rgba(9, 121, 109, 1) 30%,
+  //   rgba(49, 161, 184, 1) 100%
+  // );
 }
+
 .intro {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   width: 100vw;
   height: 100vh;
-  padding-top: 20em;
-  background-image: url("../../photos/AndelSound_PROMO_2021_hi-4.jpg");
-  // background-image: url("../../photos/AS_2.PNG");
-  // fill: pink;
   opacity: 0.9;
   background-position: center;
   background-size: cover;
@@ -30,8 +27,40 @@
   text-align: center;
   color: $dark-blue;
 
-  img {
-    width: 10em;
-    height: auto;
+  h3 {
+    z-index: 3;
+    color: $beige;
+  }
+
+  .images {
+    position: relative;
+  }
+  .images > img {
+    width: 100vw;
+    height: 100vh;
+    // object-fit: contain;
+    position: absolute;
+    z-index: 2;
+
+    top: 0;
+    left: 0;
+  }
+  .images > img:first-child {
+    width: 100vw;
+    height: 100vh;
+    //cover if smaller screen
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
+  .images > img:last-child {
+    @media (min-width: 320px) {
+      object-fit: contain;
+    }
+
+    @media (min-width: 768px) {
+      //  padding-top: 13em;
+      //    object-fit: cover;
+    }
   }
 }

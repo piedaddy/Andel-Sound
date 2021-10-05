@@ -35,7 +35,10 @@ function App() {
         <nav className="nav">
           <div className="nav-logo">
             <a href="#">
-              <img src={require("../photos/AS_2.PNG")} alt="Andel Sound Logo" />
+              <img
+                src={require("../photos/bad_as.png")}
+                alt="Andel Sound Logo"
+              />
             </a>
           </div>
           <div className="lang">
@@ -112,13 +115,15 @@ function App() {
       </header>
       <div>
         <Home inEng={inEng} />
-        <About inEng={inEng} />
-        <References inEng={inEng} />
-        <Gear inEng={inEng} />
-        <Photos inEng={inEng} />
+        <div class="subHome">
+          <About inEng={inEng} />
+          <References inEng={inEng} />
+          <Gear inEng={inEng} />
+          <Photos inEng={inEng} />
 
-        <Contact inEng={inEng} />
-        <Footer inEng={inEng} />
+          <Contact inEng={inEng} />
+          <Footer inEng={inEng} />
+        </div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ export default function MusicProdRef({ inEng }) {
           alt="Rising Spirits"
         ></img>
         <p className="reference_description">
-          Mixing session for single <i>Tvoj Usmev</i>
+          Mixing session for single <b>Tvoj Usmev</b>
         </p>
         <p className="reference_name">Rising Spirits</p>
       </div>
@@ -23,7 +23,7 @@ export default function MusicProdRef({ inEng }) {
           alt="Leaping Lena"
         ></img>
         <p className="reference_description">
-          Music production, mix, and master for single <i>Where Are We Going</i>
+          Music production, mix, and master for single <b>Where Are We Going</b>
         </p>
         <p className="reference_name">Leaping Lena</p>
       </div>
@@ -35,7 +35,7 @@ export default function MusicProdRef({ inEng }) {
           alt="PJ Dokosh"
         ></img>
         <p className="reference_description">
-          Recording and mix for song <i>Až Budeš</i>
+          Recording and mix for song <b>Až Budeš</b>
         </p>
         <p className="reference_name">PJ Dokosh</p>
       </div>
@@ -48,7 +48,7 @@ export default function MusicProdRef({ inEng }) {
         ></img>
         <p className="reference_description">
           Music production, mix, and master for single{" "}
-          <i>Tvuj Fotr To Tak Chtel</i>
+          <b>Tvuj Fotr To Tak Chtel</b>
         </p>
         <p className="reference_name">Sirup</p>
       </div>
@@ -60,8 +60,7 @@ export default function MusicProdRef({ inEng }) {
           alt="PJ Dokosh"
         ></img>
         <p className="reference_description">
-          Music production, mix, and master for single
-          <i>Plameny</i>
+          Music production, mix, and master for single <b>Plameny</b>
         </p>
         <p className="reference_name">PJ Dokosh</p>
       </div>
