@@ -10,11 +10,13 @@ export default function Commercial({ inEng }) {
           src={require("../../photos/AlfaSilver.jpg")}
           alt="AlfaSilver logo"
         ></img>
+        {/* <div className="reference__text"> */}
         <p className="reference_description">
           Voice Over pro independent company McShakespeare a produkt Alfa
           Silver.
         </p>
         <p className="reference_name">Alfa Silver</p>
+        {/* </div> */}
       </div>
 
       <div className="reference">
@@ -23,10 +25,12 @@ export default function Commercial({ inEng }) {
           src={require("../../photos/preamps_1.JPG")}
           alt="Rádoby Nádoby Logo"
         ></img>
+        {/* <div className="reference__text"> */}
         <p className="reference_description">
           Voice Over pro prezentační videa.
         </p>
         <p className="reference_name">Rádoby Nádoby</p>
+        {/* </div> */}
       </div>
 
       <div className="reference">

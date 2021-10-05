@@ -30,8 +30,6 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        {/* <img src="./img/logo.jpeg" alt="Andel Sound Logo"/> */}
-        {/* <button onClick={handleLangChange}> {inEng ? "EN" : "CZ"}</button> */}
         <nav className="nav">
           <div className="nav-logo">
             <a href="#">
@@ -85,11 +83,12 @@ function App() {
                 <a href="#references" onClick={handleShowMenu}>
                   {inEng ? "references" : "reference"}
                 </a>
-                <a href="#photos" onClick={handleShowMenu}>
-                  {inEng ? "photos" : "fotky"}
-                </a>
+
                 <a href="#gear" onClick={handleShowMenu}>
                   {inEng ? "equiptment" : "vybavení"}
+                </a>
+                <a href="#photos" onClick={handleShowMenu}>
+                  {inEng ? "photos" : "fotky"}
                 </a>
                 <a href="#contact" onClick={handleShowMenu}>
                   {inEng ? "contact" : "kontact"}
@@ -102,8 +101,9 @@ function App() {
           <div className="nav-links">
             <a href="#about">{inEng ? "about" : "o nás"}</a>
             <a href="#references">{inEng ? "references" : "reference"}</a>
-            <a href="#photos">{inEng ? "photos" : "fotky"}</a>
             <a href="#gear">{inEng ? "equiptment" : "vybavení"}</a>
+            <a href="#photos">{inEng ? "photos" : "fotky"}</a>
+
             <a href="#contact">{inEng ? "contact" : "kontact"}</a>
           </div>
           {/* <div className="nav-icons">

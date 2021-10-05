@@ -29,10 +29,20 @@ export default function References({ inEng }) {
 
   return (
     <section className="references" id="references">
-      <h2>{inEng ? "References" : "Reference"}</h2>
+      <h2>{inEng ? "REFERENCES" : "REFERENCE"}</h2>
       <div className="references_menu">
-        <h5 className={`${shouldShowMusicProd ? "chosen" : ""}`} onClick={showMusicProd}>{inEng ? "Music" : "Hudba"}</h5>
-        <h5 className={`${shouldShowCommercial ? "chosen" : ""}`} onClick={showCommerical}>{inEng ? "Commercial" : "Komerční"}</h5>
+        <h5
+          className={`${shouldShowMusicProd ? "chosen" : ""}`}
+          onClick={showMusicProd}
+        >
+          {inEng ? "Music" : "Hudba"}
+        </h5>
+        <h5
+          className={`${shouldShowCommercial ? "chosen" : ""}`}
+          onClick={showCommerical}
+        >
+          {inEng ? "Commercial" : "Komerční"}
+        </h5>
       </div>
       {/* <hr></hr> */}
       <div className="references_container">

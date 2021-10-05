@@ -18,11 +18,27 @@
   h2 {
     @media (min-width: 320px) {
       padding: 2.5em 1em 0em 1em;
-      text-transform: uppercase;
       color: $seafoam;
     }
     @media (min-width: 600px) {
       padding: 2em 0em 0em 0em;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 4em;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 5em;
+    }
+
+    @media (min-width: 1440px) {
+      font-size: 6em;
+    }
+
+    @media (min-width: 1680px) {
+      // padding-left: 1em;
+      font-size: 7em;
     }
   }
 
@@ -49,6 +65,20 @@
   @media (min-width: 600px) {
     padding-left: 0em;
   }
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.8rem;
+  }
+  @media (min-width: 1440px) {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 1680px) {
+    font-size: 3rem;
+  }
 }
 
 .references_container {
@@ -61,6 +91,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   // width: 26vw;
   padding: 1em;
   text-align: center;
@@ -80,9 +111,16 @@
     width: 40vw;
     margin: 0em;
   }
+  @media (min-width: 1440px) {
+    padding-bottom: 1.5rem;
+  }
+  @media (min-width: 1680px) {
+    margin-bottom: 2rem;
+  }
 
-  @media (min-width: 768px) {
-    // width: 30vw;
+  .__text {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -94,6 +132,36 @@
   font-weight: 300;
   font-style: italic;
   text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 1rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.2rem;
+  }
+  @media (min-width: 1440px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 1680px) {
+    font-size: 2rem;
+  }
+}
+
+.reference_name {
+  font-weight: bold;
+
+  @media (min-width: 768px) {
+    font-size: 1.3rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 1440px) {
+    font-size: 1.8rem;
+  }
+  @media (min-width: 1680px) {
+    font-size: 2.3rem;
+  }
 }
 
 .reference_image {
@@ -114,6 +182,19 @@
   @media (min-width: 768px) {
     width: 15em;
     height: 15em;
+  }
+
+  @media (min-width: 1024px) {
+    width: 20em;
+    height: 20em;
+  }
+  @media (min-width: 1440px) {
+    width: 25em;
+    height: 25em;
+  }
+  @media (min-width: 1680px) {
+    width: 30em;
+    height: 30em;
   }
 }
 

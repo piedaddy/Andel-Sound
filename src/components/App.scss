@@ -130,11 +130,29 @@ nav a {
   //   justify-content: center;
   // }
 
+  @media (min-width: 425px) {
+  }
+
+  @media (min-width: 600px) {
+  }
+
   @media (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     margin-right: 5em;
     padding-top: 1.5em;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: 1920px) {
+    font-size: 2rem;
   }
 }
 
@@ -152,6 +170,14 @@ nav a {
     font-size: 1em;
     color: $beige;
     padding: 0 1em;
+
+    @media (min-width: 1440px) {
+      font-size: 1.3rem;
+    }
+
+    @media (min-width: 1920px) {
+      font-size: 1.5rem;
+    }
 
     span {
       padding: 0.3em;

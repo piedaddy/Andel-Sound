@@ -11,24 +11,15 @@ export default function Contact({ inEng }) {
       <div className="contacts__container">
         <div className="contact_box">
           <div className="contact">
-            <span>
-              <strong>email:</strong> studio@andelsound.com
-            </span>
+            <p>
+              {/* <strong>email:</strong> */}
+              <strong> studio@andelsound.com </strong>
+            </p>
             <br />
-            <span>
-              <strong>tel:</strong> +420-735-190-478
-            </span>
-            {/* <div className="contact-email">
-              <span>{inEng ? "send an email now" : "nyní pošlete e-mail"}</span>
-              <a
-                href="mailto:gpwildfeuer@email.wm.edu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="far fa-envelope"
-              >
-                {" "}
-              </a>
-            </div> */}
+            <p>
+              {/* <strong>tel:</strong>  */}
+              420-735-190-478
+            </p>
           </div>
         </div>
         <div className="follow">
@@ -99,8 +90,8 @@ export default function Contact({ inEng }) {
         <div className="prices__custom">
           <p>
             {inEng
-              ? "Prices may vary due to type and size of individual project. Describe your project via email studio@andelsound.com and we will get back to you with specific calculations."
-              : "Ceny jsou orientační podle typu a rozsáhlosti projektu. Popište nám svůj projekt na studio@andelsound.com a my Vám zašlem individualní kalkulaci ceny."}
+              ? "Prices may vary due to type and size of individual project. Describe your project via email and we will get back to you with specific calculations."
+              : "Ceny jsou orientační podle typu a rozsáhlosti projektu. Popište nám svůj projekt na a my Vám zašlem individualní kalkulaci ceny."}
           </p>
         </div>
       </div>
