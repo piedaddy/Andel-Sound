@@ -23,6 +23,8 @@
 
   h2 {
     font-weight: bold;
+    text-align: center;
+
     @media (min-width: 320px) {
       padding-top: 2.3em;
       padding-bottom: 0.5em;
@@ -59,19 +61,20 @@
   }
   p {
     @media (min-width: 425px) {
-      font-size: 1.25rem;
+      //   font-size: 1.25rem;
     }
     @media (min-width: 768px) {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
     @media (min-width: 1024px) {
-      font-size: 1.8rem;
+      //font-size: 1.8rem;
     }
     @media (min-width: 1440px) {
-      font-size: 2.5rem;
+      // font-size: 2.5rem;
     }
     @media (min-width: 1680px) {
-      font-size: 3rem;
+      // font-size: 3rem;
+      font-size: 2rem;
     }
   }
 

@@ -8,9 +8,7 @@ export default function Photos({ inEng }) {
   // id="carouselExampleIndicators"
   return (
     <section id="photos" className="photos">
-      {/* <h2>{inEng ? "PHOTOS" : "FOTKY"}</h2> */}
-      <h2></h2>
-
+      <h2>{inEng ? "PHOTOS" : "FOTKY"}</h2>
       <Splide
         options={{
           type: "loop",

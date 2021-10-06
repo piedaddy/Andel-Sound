@@ -12,7 +12,6 @@ export default function Home({ inEng }) {
 
         <img src={require("../../photos/bad_as.png")} alt="Andel Sound Logo" />
       </div>
-      <h3>{inEng ? "MUSIC AND FILM STUDIO" : "HUDEBNÍ A FILMOVÉ STUDIO"}</h3>
     </div>
   );
 }

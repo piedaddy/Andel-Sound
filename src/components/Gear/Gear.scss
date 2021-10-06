@@ -34,11 +34,34 @@
     border-bottom: 2px solid $dark-blue;
     color: $beige;
     text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
     @media (min-width: 320px) {
       padding-top: 2.5em;
     }
+    @media (min-width: 425px) {
+      padding-top: 3em;
+    }
     @media (min-width: 600px) {
-      padding-top: 2.2em;
+      font-size: 3em;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 4em;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 5em;
+    }
+
+    @media (min-width: 1440px) {
+      font-size: 6em;
+    }
+
+    @media (min-width: 1680px) {
+      //   padding-left: 1em;
+      font-size: 7em;
     }
   }
 
@@ -51,6 +74,16 @@
     font-size: 0.8em;
     font-style: italic;
     color: $beige;
+    text-align: center;
+
+    @media (min-width: 1024px) {
+      font-size: 1em;
+    }
+
+    @media (min-width: 1680px) {
+      //   padding-left: 1em;
+      font-size: 1.8em;
+    }
   }
 }
 
@@ -90,6 +123,9 @@
     list-style: none;
     line-height: 1.7em;
     color: $beige;
+    @media (min-width: 1680px) {
+      font-size: 1.8rem;
+    }
   }
 
   li:hover {
@@ -121,4 +157,8 @@ h4 {
   // @media(min-width: 600px) {
   //   height: 3.2em;
   // } ERIC DO U LIKE THIS
+
+  @media (min-width: 1680px) {
+    font-size: 1.8rem;
+  }
 }
